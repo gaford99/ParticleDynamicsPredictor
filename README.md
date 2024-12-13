@@ -22,7 +22,6 @@ Sample size: ~3,000 labeled images per collision
 
 Python
 
-Collapse
 ParticlePhysicsModel
 ├── Input Layer (10x10 detector images)
 ├── Physics-Based Feature Extraction
@@ -145,7 +144,8 @@ visualize_feature_maps():
     - Convolutional layer activations
     - Physics-based feature maps
     """
-Training Metrics
+### Training Metrics
+
 Python
 
 plot_training_results():
@@ -155,16 +155,3 @@ plot_training_results():
     - Accuracy progression
     - Physics violation metrics
     """
-Current Limitations and Future Work
-Class Imbalance
-Dominant pion class (77%)
-Very rare muon class (0.11%)
-Need for better handling of imbalanced data
-Model Performance
-Strong on rare classes
-Weak on common classes
-Room for improvement in overall accuracy
-Future Improvements
-Enhanced physics constraints
-Better data augmentation
-Advanced architecture exploration
